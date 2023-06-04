@@ -16,12 +16,12 @@ execute as @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] run give @s s
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s stick 2
 
 #clear everything
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] netherite_helmet
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] netherite_chestplate
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] netherite_leggings
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] netherite_boots
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] netherite_sword
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] netherite_pickaxe
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] netherite_axe
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] netherite_shovel
-clear @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] netherite_hoe
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] netherite_helmet 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] netherite_chestplate 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] netherite_leggings 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] netherite_boots 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] netherite_sword 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] netherite_pickaxe 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] netherite_axe 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] netherite_shovel 1
+clear @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] netherite_hoe 1
