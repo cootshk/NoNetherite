@@ -1,8 +1,8 @@
 #armor
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] run give @s netherite_ingot 5
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] run give @s netherite_ingot 8
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] run give @s netherite_ingot 7
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] run give @s netherite_ingot 4
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] run give @s diamond_helmet 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] run give @s diamond_chestplate 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] run give @s diamond_leggings 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] run give @s diamond_boots 1
 #tools
 #refund tool
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s diamond_sword 1
@@ -11,6 +11,10 @@ execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s diam
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] run give @s diamond_shovel 1
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s diamond_hoe 1
 #refund netherite ingot
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] run give @s netherite_ingot 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] run give @s netherite_ingot 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] run give @s netherite_ingot 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] run give @s netherite_ingot 1
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s netherite_ingot 1
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s netherite_ingot 1
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s netherite_ingot 1
