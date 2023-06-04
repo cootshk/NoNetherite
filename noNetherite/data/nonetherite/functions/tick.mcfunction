@@ -4,16 +4,18 @@ execute as @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate"}]}] run give 
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_leggings"}]}] run give @s netherite_ingot 7
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_boots"}]}] run give @s netherite_ingot 4
 #tools
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s netherite_ingot 2
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s netherite_ingot 3
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s netherite_ingot 3
+#refund tool
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s diamond_sword 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s diamond_pickaxe 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s diamond_axe 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] run give @s diamond_shovel 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s diamond_hoe 1
+#refund netherite ingot
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s netherite_ingot 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s netherite_ingot 1
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s netherite_ingot 1
 execute as @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] run give @s netherite_ingot 1
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s netherite_ingot 2
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_sword"}]}] run give @s stick 1
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run give @s stick 2
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_axe"}]}] run give @s stick 2
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_shovel"}]}] run give @s stick 1
-execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s stick 2
+execute as @a[nbt={Inventory:[{id:"minecraft:netherite_hoe"}]}] run give @s netherite_ingot 1
 
 #clear everything
 clear @a[nbt={Inventory:[{id:"minecraft:netherite_helmet"}]}] netherite_helmet 1
